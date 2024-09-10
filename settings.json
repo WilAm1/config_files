@@ -1,0 +1,252 @@
+{
+  "terminal.integrated.env.windows": {},
+  "git.enabled": true,
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login"]
+    }
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.allowWorkspaceConfiguration": true,
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "editor.linkedEditing": true,
+
+  "window.title": " Dyann☕  ${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+  "files.autoSaveDelay": 10000,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "python.defaultInterpreterPath": "",
+  "notebook.lineNumbers": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotVerifyTags": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "off",
+  // for path intellisense
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  // end path intellisense
+  // EOL Stuff
+  // Make it LF as default
+  // "files.eol": "\n",
+  // Make it CRLF as default
+  "files.eol": "\r\n",
+  // * Vim Settings (WIP) TODO
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  // go to the implementation of a function
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "I"],
+      "commands": ["editor.action.goToImplementation"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["^"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-j>": false,
+    "<C-p>": false
+  },
+  // "vim.commandLineModeKeyBindings": [], // make it false to revert to normal line numbers
+  "vim.vimrc.enable": false,
+  "vim.vimrc.path": "%USERPROFILE%/.vim/",
+  "vim.easymotion": true,
+  "vim.surround": true,
+
+  // * VIM config end
+
+  "settingsSync.ignoredSettings": [],
+  "workbench.startupEditor": "none",
+  "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
+
+  // PHP Stuff
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  "blockman.n01LineHeight": 0,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.inlayHints.enabled": "off",
+
+  // tailwind config
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  // discord plugin settings
+  "discord.removeRemoteRepository": true,
+  "discord.detailsIdling": "Brewing Coffee",
+  "discord.detailsEditing": "writing spells on {file_name}",
+  "discord.smallImage": "{Witchcraft}",
+  "discord.lowerDetailsEditing": "",
+  "discord.removeLowerDetails": true,
+  "[python]": {
+    // "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    // for editor tab size based from reddit
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+
+  "[django-html][handlebars][hbs][mustache][jinja][jinja-html][nj][njk][nunjucks][twig]": {
+    "editor.defaultFormatter": "monosans.djlint"
+  },
+  "powermode.enabled": false,
+  "powermode.combo.threshold": 5,
+  "powermode.combo.location": "statusbar",
+  "liveServer.settings.fullReload": true,
+  "editor.lineNumbers": "on",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "github.copilot.chat.enabledLanguages": ["-php"],
+  "github.copilot.advanced": {},
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "php": true
+  },
+  "workbench.settings.applyToAllProfiles": [],
+  // intellisense for Django
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "Notes.notesLocation": "c:\\Users\\Dyann\\OneDrive\\Documents\\ObsidianNotes\\Career\\Notes-Extension-VSCode",
+  "robot.language": [],
+  "robot.language-server.args": [],
+  "robot.language-server.python": "C:\\Program Files\\Python312\\python.exe",
+  "explorer.compactFolders": false,
+  "black-formatter.args": [
+    "--line-length=80",
+    "--experimental-string-processing"
+  ],
+
+  "djlint.formatAttributeTemplateTags": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "color-highlight.markerType": "dot-after",
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.keywords": [],
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.accessibilitySupport": "off",
+  "gitlens.codeLens.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "workbench.activityBar.location": "top",
+  "go.toolsManagement.autoUpdate": true,
+  "editor.scrollbar.verticalScrollbarSize": 16,
+  "editor.fastScrollSensitivity": 10,
+  "gitlens.plusFeatures.enabled": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "window.newWindowDimensions": "offset",
+  "workbench.editor.showTabs": "single",
+  "settingsSync.ignoredExtensions": [
+    "eamodio.gitlens",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "icrawl.discord-vscode"
+  ],
+  "excalidraw.theme": "dark",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.fontFamily": "'FiraCode Nerd Font Mono','FiraCode Nerd Font Mono', 'Monaspace Neon', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 14.5,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', \"CaskaydiaCove Nerd Font Mono\"",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens.launchpad.indicator.enabled": false,
+  "editor.tabSize": 2,
+  "redhat.telemetry.enabled": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  }
+}
